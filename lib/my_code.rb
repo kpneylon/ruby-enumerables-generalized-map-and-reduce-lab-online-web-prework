@@ -9,7 +9,7 @@ def map(array)
 end
 
 
-def reduce(array, sv = nil)
+def reduce(array, sv=nil)
   
   
 end
