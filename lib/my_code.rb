@@ -13,6 +13,6 @@ def reduce(array, sv=nil)
   if sv
     next = sv
     i = 0
-    
+  else 
   
 end
