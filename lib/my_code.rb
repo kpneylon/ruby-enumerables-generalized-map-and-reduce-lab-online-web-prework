@@ -20,4 +20,6 @@ def reduce(array, sv=nil)
   while i < array.length
     next = yield(next, array[i])
     i += 1
+  end
+  next
 end
