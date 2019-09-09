@@ -14,9 +14,9 @@ def reduce(array, sv=nil)
     next = sv
     i = 0
   else 
-    next = arrayp[0]
+    next = array[0]
     i = 1
   end  
   while i < array.length
-    yield
+    yield(next)
 end
