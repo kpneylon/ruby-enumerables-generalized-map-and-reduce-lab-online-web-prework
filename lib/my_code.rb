@@ -9,7 +9,7 @@ def map(array)
 end
 
 
-def reduce()
-  now = []
+def reduce(array)
+  
   
 end
