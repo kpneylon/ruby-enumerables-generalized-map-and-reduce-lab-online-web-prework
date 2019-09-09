@@ -1,4 +1,4 @@
 def my_own_map(array)
-  neg = 
+  neg = array * -1
 
 end  
