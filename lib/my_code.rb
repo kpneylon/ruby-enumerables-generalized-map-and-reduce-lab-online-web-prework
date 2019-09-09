@@ -14,5 +14,6 @@ def reduce(array, sv=nil)
     next = sv
     i = 0
   else 
+    
   
 end
