@@ -11,6 +11,7 @@ end
 
 def reduce(array, sv=nil)
   if sv
-    next = 
+    next = sv
+    
   
 end
