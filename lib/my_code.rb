@@ -16,5 +16,6 @@ def reduce(array, sv=nil)
   else 
     next = arrayp[0]
     i = 1
+  end  
   
 end
