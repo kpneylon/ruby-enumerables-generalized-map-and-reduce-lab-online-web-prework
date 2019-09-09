@@ -11,15 +11,15 @@ end
 
 def reduce(array, sv=nil)
   if sv
-    next = sv
+    now = sv
     i = 0
   else 
-    next = array[0]
+    now = array[0]
     i = 1
   end  
   while i < array.length
-    next = yield(next, array[i])
+    now = yield(now, array[i])
     i += 1
   end
-  next
+  now
 end
