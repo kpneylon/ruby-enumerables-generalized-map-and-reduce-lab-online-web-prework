@@ -19,4 +19,5 @@ def reduce(array, sv=nil)
   end  
   while i < array.length
     next = yield(next, array[i])
+    i += 1
 end
