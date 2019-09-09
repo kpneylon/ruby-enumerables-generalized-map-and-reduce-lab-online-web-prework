@@ -10,5 +10,6 @@ end
 
 
 def reduce()
+  now = []
   
 end
