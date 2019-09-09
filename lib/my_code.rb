@@ -17,5 +17,5 @@ def reduce(array, sv=nil)
     next = arrayp[0]
     i = 1
   end  
-  
+  while 
 end
